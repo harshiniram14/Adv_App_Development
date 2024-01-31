@@ -1,0 +1,164 @@
+/* src/assets/About.css */
+
+/* Main container */
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  color: #333;
+}
+
+/* Headline */
+.about-head {
+  font-size: 2.5em;
+  color: #503a49; /* Red */
+  margin-bottom: 20px;
+  letter-spacing: 4px;
+}
+
+/* Paragraph */
+.about-para {
+  font-size: 1.4em;
+  font-family: "Didact Gothic", sans-serif;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Decorative elements */
+.about-container::before,
+.about-container::after {
+  content: '\2022';
+  font-size: 3em;
+  color: #3498db; /* Blue */
+  display: block;
+  margin: 20px 0;
+}
+
+/* Additional creative styles */
+.about-container::before {
+  transform: rotate(10deg);
+}
+
+.about-container::after {
+  transform: rotate(-10deg);
+}
+
+.about-head::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #2ecc71; /* Green */
+  margin: 20px auto;
+}
+
+/* Last paragraph styling */
+.about-para:last-child {
+  font-style: italic;
+  color: #7f8c8d; /* Gray */
+}
+
+/* Gallery container */
+
+.gallery-head{
+  font-size: 2.5em;
+  color: #503a49; /* Red */
+  margin-bottom: 20px;
+  letter-spacing: 4px;
+  text-align: center;
+}
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+/* Gallery item */
+.gallery-item {
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Testimonials section */
+.testimonials-container {
+  text-align: center;
+}
+
+.testimonials-head {
+  font-weight: bold; /* Make the text bold */
+  text-align: center; /* Center align the text */
+  margin-bottom: 20px; /* Add some bottom margin */
+  text-transform: uppercase; /* Transform text to uppercase */
+  font-size: 2.5em;
+  color: #503a49; /* Red */
+  letter-spacing: 4px;
+}
+
+/* Testimonial card container */
+.testimonial-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Testimonial card */
+.testimonial {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 200px;
+  width: 100%;
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for testimonial cards */
+.testimonial:hover {
+  transform: translateY(-5px);
+}
+
+/* Testimonial text */
+.testimonial-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Testimonial author */
+.testimonial-author {
+  margin-top: 10px;
+  font-style: italic;
+  color: #777;
+}
+
+/* Testimonial author image */
+.testimonial-author-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for images in the gallery */
+.gallery-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
