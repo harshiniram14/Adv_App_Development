@@ -1,0 +1,117 @@
+.search-container {
+  margin-bottom: 20px;
+  text-align: center; /* Align the search input to the center */
+}
+
+.search-input {
+  width: 300px; /* Adjust the width as needed */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  outline: none; /* Remove default input outline */
+}
+
+.search-input::placeholder {
+  color: #999; /* Placeholder text color */
+}
+
+.search-input:focus {
+  border-color: #007bff; /* Highlight border color on focus */
+}
+
+  
+  .events-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .event-card {
+    margin: 10px;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-image {
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .image {
+    width: 100%;
+    height: 200px;
+  }
+  
+  .event-details {
+    padding: 15px;
+  }
+  
+  .event-type {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .head-count {
+    font-size: 16px;
+    color: #666;
+  }
+
+  .message-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .message-container p {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+  }
+
+/* Events.css */
+
+.packages-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.package-card {
+  width: calc(25% - 20px); /* Adjust width to fit 4 cards per row */
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.package-image {
+  width: 100%;
+  height: 150px; /* Reduce height of the image */
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.package-details {
+  padding: 15px;
+}
+
+.package-details h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.package-details p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}

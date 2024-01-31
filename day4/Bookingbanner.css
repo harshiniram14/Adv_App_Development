@@ -1,0 +1,24 @@
+.event-banner {
+    position: relative;
+  }
+  
+  .booking-banner-video {
+    width: 100%;
+    height: auto;
+  }
+  
+  .booking-banner-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Change text color as needed */
+  }
+  
+  .booking-banner-text h2 {
+    font-size: 5em;
+    /* Add additional styles as needed */
+    font-family: 'Courier New', monospace;
+  }
+  
