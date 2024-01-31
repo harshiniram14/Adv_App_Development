@@ -1,0 +1,48 @@
+/* Adminadd.css */
+
+.admin-navbar-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .admin-navbar-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .admin-add-form {
+    width: 100%;
+  }
+  
+  .admin-add-group {
+    margin-bottom: 15px;
+  }
+  
+  .admin-add-label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .admin-add-input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .admin-add-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .admin-add-button:hover {
+    background-color: #0056b3;
+  }
+  
