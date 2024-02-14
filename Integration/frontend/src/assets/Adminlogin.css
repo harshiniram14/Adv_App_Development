@@ -1,0 +1,58 @@
+/* AdminLogin.css */
+
+#admin-login-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.admin-login-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.admin-ask {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.admin-inp {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.admin-login-error {
+  color: red;
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+.admin-signup-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.admin-signup-link a {
+  color: #007bff; /* Blue color for link */
+  text-decoration: none;
+}
+
+.admin-signup-link a:hover {
+  text-decoration: underline;
+}
+
+#admin-login-button {
+  width: 100%;
+  background-color: #28a745; /* Green color for login button */
+  color: #fff;
+  margin-top: 10px;
+}
+
+#admin-login-button:hover {
+  background-color: #218838; /* Darker shade of green on hover */
+}

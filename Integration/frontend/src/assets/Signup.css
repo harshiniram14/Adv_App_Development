@@ -1,0 +1,58 @@
+/* SignUp.css */
+
+#log-box-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.emp-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ask {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.inp {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#signup-button {
+  width: 100%;
+  background-color: #28a745; /* Green color for sign-up button */
+  color: #fff;
+  margin-top: 10px;
+}
+
+#signup-button:hover {
+  background-color: #218838; /* Darker shade of green on hover */
+}
+
+/* Error message styling */
+.error-msg {
+  color: red;
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+/* Link styling */
+.signup-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.signup-link a {
+  color: #007bff; /* Blue color for link */
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}

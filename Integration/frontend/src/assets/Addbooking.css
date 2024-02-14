@@ -1,0 +1,39 @@
+/* Addbooking.css */
+
+.heading-addbook {
+  text-align: center;
+}
+
+.form-addbook {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.label-addbook {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.ip-addbook {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-addbook {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-addbook:hover {
+  background-color: #0056b3;
+}

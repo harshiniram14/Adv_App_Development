@@ -1,0 +1,59 @@
+/* AdminSignup.css */
+
+#admin-signup-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.admin-signup-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.admin-ask {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.admin-inp {
+  width: 100%;
+  margin-bottom: 15px; /* Increased margin-bottom for space between fields */
+}
+
+#admin-signup-button {
+  width: 100%;
+  background-color: #28a745; /* Green color for sign-up button */
+  color: #fff;
+  margin-top: 15px; /* Adjusted margin-top */
+}
+
+#admin-signup-button:hover {
+  background-color: #218838; /* Darker shade of green on hover */
+}
+
+/* Error message styling */
+.admin-signup-error {
+  color: red;
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+/* Link styling */
+.admin-signup-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.admin-signup-link a {
+  color: #007bff; /* Blue color for link */
+}
+
+.admin-signup-link a:hover {
+  text-decoration: underline;
+}

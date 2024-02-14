@@ -1,0 +1,49 @@
+/* ViewBooking.css */
+
+.view-booking-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+}
+
+.booking-list {
+  margin-top: 20px;
+}
+
+.booking-list h2 {
+  margin-bottom: 10px;
+}
+
+.booking-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.booking-table th,
+.booking-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.booking-table th {
+  background-color: #f2f2f2;
+}
+
+.delete-button {
+  padding: 8px 12px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+/* Adjust the margin for Mybookingbanner */
+.my-booking-banner {
+  margin-bottom: 0px; /* Add margin bottom for spacing */
+}
